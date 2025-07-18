@@ -15,7 +15,7 @@ export default function UserList() {
         
     }, [])
     return (
-        <div className="flex items-center justify-center w-screen h-screen font-bold font-medium ">
+        <div className="flex items-center justify-center font-bold font-medium ">
             {isLoading ? (
                 <p>Loading....</p>
             ) : (
